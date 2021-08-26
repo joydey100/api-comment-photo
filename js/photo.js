@@ -8,7 +8,6 @@ getPhoto();
 function showPhoto(data) {
   const container = document.getElementById("photo-container");
   for (let info of data) {
-    console.log(info);
     const mainDiv = document.createElement("div");
     const flexDiv = document.createElement("div");
     mainDiv.classList.add("col-md-4");

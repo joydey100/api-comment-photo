@@ -8,7 +8,6 @@ getUser();
 function showUser(data) {
   const container = document.getElementById("user-container");
   for (let info of data) {
-    console.log(info);
     const mainDiv = document.createElement("div");
     const flexDiv = document.createElement("div");
     mainDiv.classList.add("col-md-4");
